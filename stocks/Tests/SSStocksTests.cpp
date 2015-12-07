@@ -149,7 +149,7 @@ int SSStocksTests::runTests()
    sm.AddStock(&st5);
 
    cout << "--------------" << endl;
-   cout << "Dividend Yield" << endl;
+   cout << "Use Case 1: For a given stock, Given any price as input, calculate the dividend yield" << endl;
    cout << "--------------" << endl;
 
    totalErrors += testDividendYield(st1, 50,     0);
@@ -171,7 +171,7 @@ int SSStocksTests::runTests()
    totalErrors += testDividendYield(st5, 500, 0.026);
 
    cout << "-------" << endl;
-   cout << "PERatio" << endl;
+   cout << "Use Case 2: For a given stock, Given any price as input, calculate the P/E Ratio" << endl;
    cout << "-------" << endl;
 
    totalErrors += testPERatio(st1,  50,  0    );
@@ -191,7 +191,9 @@ int SSStocksTests::runTests()
    totalErrors += testPERatio(st5, 500, 38.461);
 
    cout << "-----------------------------------------------------------" << endl;
-   cout << "Trades, Volume Weighted Stock Price and GBCE All Share Index" << endl;
+   cout << "Use Case 3: For a given stock, Record a trade, with timestamp, quantity of shares, buy or sell indicator and traded price" << endl;
+   cout << "Use Case 4: For a given stock, Calculate Volume Weighted Stock Price based on trades in past 15 minutes" << endl;
+   cout << "Use Case 5: Calculate the GBCE All Share Index using the geometric mean of prices for all stocks" << endl;
    cout << "-----------------------------------------------------------" << endl;
 
    totalErrors += testTrade(st1, 0, 0, 0);
