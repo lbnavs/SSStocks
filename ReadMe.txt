@@ -2,27 +2,26 @@
    Super Simple Stocks Application
 ========================================================================
 
-Developed in C++ using on Visual Studio 2013
+Developed in C++ using Visual Studio 2013
 
 How to run: execute "stocks.exe" file.
 
-Folder Description:
-Main
+Relevant File/Folder Description:
+stocks
 |--stocks.cpp: This is the entry point of the application.
 |--SSStocksApp.h/.cpp: Super Simple Stocks Application Object. 
-|--stocks.exe: executable for testing the app.
-|--stocks.sln: Visual Studio Solution
-Models
-|--Stock
-|  |--Stock.h/.cpp: Stock Interface Object
-|  |--CommonStock.h/.cpp: Common Stock Object.
-|  |--PreferredStock.h/.cpp: Preferred Stock Object.
-|--StocksMarket
-|  |--StockMarket.h/.cpp: Stock Market Object (Created concept to gather all stocks)
-|--Trade
-|  |--Trade.h/.cpp: Trade Object (for a specific Stock)
-Tests
-|--StockTests.h/.cpp: Super Simple Stocks Tests Object. 
+|--stocks.exe: Executable for Testing the App.
+|--Models
+|  |--Stock
+|  |  |--Stock.h/.cpp: Stock Interface Object
+|  |  |--CommonStock.h/.cpp: Common Stock Object.
+|  |  |--PreferredStock.h/.cpp: Preferred Stock Object.
+|  |--StocksMarket
+|  |  |--StockMarket.h/.cpp: Stock Market Object (Created concept to gather all stocks)
+|  |--Trade
+|  |  |--Trade.h/.cpp: Trade Object (for a specific Stock)
+|--Tests
+   |--StockTests.h/.cpp: Super Simple Stocks Tests Object. 
 
 /////////////////////////////////////////////////////////////////////////////
 
@@ -54,5 +53,5 @@ Interpretations/Assumptions:
 -Interpretation Doubt: "price" in "GBCE All Share Index using the geometric mean of prices for all stocks" Options: Volume Weighted Stock Price, Par Value, Every Trade Price? => Assumption: Using the Volume Weighted Stock Price.
 -No multi-threading management.
 -No overflow handling for "Geometric Mean" and "Volume Weighted Stock Price" intermediate variables.
--No invalid input validation.
+-No validation of invalid user input on UI.
 
