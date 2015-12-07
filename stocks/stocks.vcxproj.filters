@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{0515c539-be95-473d-a504-b4830efac7b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{1b0d1412-5598-4546-a50a-67de5ef4a3ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Main\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Main\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{3a29a036-1289-4801-954b-f4c1a6aaf0b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\StockMarket">
+      <UniqueIdentifier>{bd24e846-0b80-46c8-a243-7a516ddcaf87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Stock">
+      <UniqueIdentifier>{cae03f96-b2a0-47ca-9864-537052015657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Trade">
+      <UniqueIdentifier>{659894d1-47d5-4b68-8b1b-231ad2d9d82a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSStocksApp.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\SSStocksTests.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Stock\Stock.h">
+      <Filter>Models\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Stock\CommonStock.h">
+      <Filter>Models\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\StockMarket\StockMarket.h">
+      <Filter>Models\StockMarket</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Trade\Trade.h">
+      <Filter>Models\Trade</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Stock\PreferredStock.h">
+      <Filter>Models\Stock</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stocks.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="SSStocksApp.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\SSStocksTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Stock\Stock.cpp">
+      <Filter>Models\Stock</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Stock\CommonStock.cpp">
+      <Filter>Models\Stock</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\StockMarket\StockMarket.cpp">
+      <Filter>Models\StockMarket</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Trade\Trade.cpp">
+      <Filter>Models\Trade</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Stock\PreferredStock.cpp">
+      <Filter>Models\Stock</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
